@@ -87,3 +87,29 @@ Check this module: [click this](https://orchid-clematis-3e4.notion.site/Panduan-
 ---
 
 ## 🎉 Embrace the challenge and turn your tasks into a fun adventure—each step brings you closer to your goals! You've got this! 🚀 Remember, every small victory is a reason to celebrate! 🎈
+
+Output from Test Result :
+$ npm run test
+
+> t-challenge5-br@0.0.0 test
+> jest
+
+ PASS  src/__test__/challenge1.test.ts
+  Challenge 1 Tests
+    addBook
+      √ should add a book and log the correct message (3 ms)
+    listBooks
+      √ should log all added books (1 ms)
+    searchBook
+      √ should prompt for a title if none is provided (1 ms)
+      √ should log search results if matching books are found (1 ms)
+      √ should log a message if no matching books are found
+      √ should perform a case-sensitive search (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       6 passed, 6 total
+Snapshots:   0 total
+Time:        6.488 s
+Ran all test suites.
+
+![test result](testResult.png)
